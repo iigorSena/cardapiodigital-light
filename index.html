@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, #E40DB0">
+  <title>Lia Bolos & Decorados</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-nome">
+      <img src="img/logo.png" alt="Logo Lielma's Cooki" class="logo">
+      <h1>Cardápio Digital Bolos Decorados</h1>
+    </div>
+   <nav class="menu">
+    <button class="botao-categoria" data-categoria="bolo-decorado" onclick="selecionarCategoria(this)">Bolo Decorado</button>
+    <button class="botao-categoria" data-categoria="doces" onclick="selecionarCategoria(this)">Doces</button>
+  </nav>
+
+  </header>
+
+  <main id="cardapio" class="cardapio">
+    <!-- Os itens do cardápio serão exibidos aqui -->
+  </main>
+
+<!-- Botão Fixo carrinho -->
+<button id="btn-carrinho" disabled>
+  <img src="img/carrinho.png" alt="WhatsApp">
+  <div id="notificacao-carrinho">0</div>
+</button>
+
+
+<footer class="rodape">
+    <div class="contato-item">
+      <img src="img/instagram.png" alt="Instagram">
+      <span>bolosdecorados</span>
+    </div>
+    <div class="contato-item">
+      <img src="img/facebook.png" alt="Facebook">
+      <span>bolosdecorados</span>
+    </div>
+    <div class="contato-item">
+      <img src="img/whatsapp.png" alt="WhatsApp">
+      <span>(98) 9 98266-3835</span>
+    </div>
+</footer>
+
+  <script src="js/lista-produtos.js"></script>
+  <script src="js/script_functions.js"></script>
+</body>
+</html>
