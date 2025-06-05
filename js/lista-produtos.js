@@ -230,3 +230,22 @@ const cardapioData = {
 ]
 
 };
+
+const RECHEIOS_GRATIS = [
+  "Ameixa",
+  "Abacaxi",
+  "Amendoim",
+  "Brigadeiro",
+  "Coco",
+  "Côco queimado",
+  "Doce de leite",
+  "Maracuja",
+  "Ninho"
+];
+
+const RECHEIOS_PAGOS = [
+  { nome: "Morango", valor: 15 },
+  { nome: "Castanha do pará", valor: 15 },
+  { nome: "Nozes", valor: 15 },
+  { nome: "Damasco", valor: 15 }
+];
