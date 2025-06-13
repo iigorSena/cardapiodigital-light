@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
   mensagem += `*Valor total:* R$ ${totalReais}%0A`;
   mensagem += `%0A Gostaria de confirmar meu pedido.`;
 
-  const telefone = '5598992278315';
+  const telefone = '5598982663835';
   const url = `https://wa.me/${telefone}?text=${mensagem}`;
   window.open(url, '_blank');
  }); // fecha o addEventListener
