@@ -1,0 +1,154 @@
+body{
+    padding-bottom: 50px;
+}
+
+#area-title-pedido{
+  background-color: #4b1d5b;
+}
+#title{
+  text-align: center;
+  color: #4b1d5b;
+  margin: 0px;
+  padding-block: 5px;
+}
+.area-checkout{
+  border: 2px solid #e00077;
+  margin-block: 10px;
+  border-radius: 12px;
+  padding: 12px;
+}
+.checkout{
+  margin-inline: 15px;
+  margin-block: 10px;
+}
+.card-checkout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e00077;
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-checkout img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-checkout .card-info {
+  flex-grow: 1;
+}
+.quantidade{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.recheios-scroll {
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.recheios p{
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.tabela-recheios {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+.tabela-recheios td {
+  padding: 4px 8px;
+  border-bottom: 1px solid #e987c2;
+  border-left: none;
+  border-right: none;
+}
+.cln-preco{
+  width: 20vw;
+}
+
+.valor-total-fixo {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: #e00077;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 999;
+}
+#area-btn-remover{
+  height: 100%;
+}
+.btn-remove {
+  background: white;
+  border: none;
+  border-left: 1.5px solid #e987c2;
+  display: flex;
+  padding-block: 30px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btn-remove img {
+  width: 24px;
+  height: 24px;
+}
+
+#btn-enviar-pedido{
+  position: fixed;
+  bottom: 45px;
+  right: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #E40DB0;
+  border-radius: 30px;
+  padding-block: 8px;
+  width: 160px;
+  color: #E40DB0;
+  font-size: 12pt;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(31, 31, 31);
+  gap: 8px;
+}
+#btn-enviar-pedido {
+  animation: balancarDireita 1s ease-in-out infinite;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-duration: 2s;
+  animation-name: balancarDireita;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes balancarDireita {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(4px); }
+  20% { transform: translateX(0); }
+  30% { transform: translateX(4px); }
+  40% { transform: translateX(0); }
+  100% { transform: translateX(0); }
+}

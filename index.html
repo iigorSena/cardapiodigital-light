@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, #E40DB0">
+  <title>Doce Pecado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-nome">
+      <img src="img/logo.png" alt="Joicy Bolos" class="logo">
+      <h1>Doce Pecado - Cardápio Digital</h1>
+    </div>
+  </header>
+
+  <main id="cardapio" class="cardapio">
+    <nav class="menu">
+      <a class="btn-categoria" href="#sec-olo_decorado">Bolos Decorados</a>
+      <a class="btn-categoria" href="#sec-doces">Doces</a>
+      <a class="btn-categoria" href="#sec-doces_cento">Doces - Cento</a>
+    </nav>
+    <section id="sec-olo_decorado" class="categoria">
+      <h2>Bolos Decorados</h2>
+      <span id="pedido-min">Pedido mínimo de 1kg para bolos.</span>
+      <div class="lista-produtos" id="lista-bolo-decorado"></div>
+    </section>
+
+    <section id="sec-doces" class="categoria">
+      <h2>Doces</h2>
+      <div class="lista-produtos" id="lista-doces"></div>
+    </section>
+
+    <section id="sec-doces_cento" class="categoria">
+      <h2>Doces - Cento</h2>
+      <div class="lista-produtos" id="lista-doces_cento"></div>
+    </section>
+  </main>
+
+
+<!-- Botão Fixo carrinho -->
+<button id="btn-carrinho" disabled>
+  <img src="img/carrinho.png" alt="WhatsApp">
+  <div id="notificacao-carrinho">0</div>
+</button>
+
+
+<footer class="rodape">
+    <div class="contato-item">
+      <a href="https://www.instagram.com/joicybolos?igsh=MXkxMGRlOXU4YTdqYQ==">
+        <img src="img/instagram.png" alt="Instagram">
+        <span>docepecado</span>
+      </a>
+    </div>
+    <div class="contato-item">
+      <img src="img/facebook.png" alt="Facebook">
+      <span>docepecado</span>
+    </div>
+    <div class="contato-item">
+      <a href="https://wa.link/gs79ff">
+        <img src="img/whatsapp.png" alt="WhatsApp">
+        <span>(98) 9 8266-3835</span>
+      </a>
+    </div>
+</footer>
+
+  <script src="js/lista-produtos.js"></script>
+  <script src="js/script_functions.js"></script>
+</body>
+</html>
