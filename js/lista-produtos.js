@@ -96,7 +96,7 @@ const cardapioData = {
   {
     imagem: 'img/doces/Bem-vivido simples.jpg',
     descricao: 'Bem-vivido simples',
-    preco: 'R$ 06,00',
+    preco: 'R$ 6,00',
     und: 'und',
     quant: 1,
     valor: 6
@@ -104,7 +104,7 @@ const cardapioData = {
   {
     imagem: 'img/doces/bem-vivido.jpg',
     descricao: 'Bem-vivido',
-    preco: 'R$ 07,50',
+    preco: 'R$ 7,50',
     und: 'und',
     quant: 1,
     valor: 7.5
